@@ -17,7 +17,7 @@ var o_rpm;
 var hasFilter = false;
 var OverLoadRPM = false;
 var IsOverLoad = false;
-var screenScore;
+var speedometer;
 
 $(function() {
 	
@@ -41,7 +41,7 @@ $(function() {
 			s_LS_h         = item.CurrentCarLS_h;
 			CalcSpeed      = s_Speed;
 			CalcRpm        = (s_Rpm * 9);
-			screenScore    = item.speedometer;
+			speedometer    = item.screenScore;
 			
 			if(CalcSpeed > 999) {
 				CalcSpeed = 999;
