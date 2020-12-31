@@ -41,7 +41,7 @@ $(function() {
 			s_LS_h         = item.CurrentCarLS_h;
 			CalcSpeed      = s_Speed;
 			CalcRpm        = (s_Rpm * 9);
-			screenScore    = speedometer;
+			screenScore    = item.speedometer;
 			
 			if(CalcSpeed > 999) {
 				CalcSpeed = 999;
